@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.container {
+    width: 383px;
+    height: 515px;
+    border-radius: 4px;
+    border: 2px dashed #FFD43A;
+    background: #414141;
+    margin: auto;
+    margin-top: 57px;
+}
+
+.paragraph-name {
+    color: #DEDEDE;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    margin: 31px 0px 3px 31px;
+}
+
+.container-input-1 {
+    width: 315px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #A9A9A9;
+    color: #FFD43A;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 34px;
+    padding-left: 7px;
+    outline: none;
+
+    
+}
+
+.container-input-1::placeholder{
+    color: #FFD43A;
+}
+
+.container-input-2 {
+    width: 315px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #F00;
+    background: #A9A9A9;
+    margin-left: 34px;
+    outline: none;
+    color: #F00;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.container-input-2::placeholder{
+    color: #F00;
+}
+
+.container-input-3 {
+    width: 315px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #A9A9A9;
+    outline: none;
+    margin-left: 34px;
+    padding: 14px;
+    color: #FFD43A;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-input-3[placeholder="text..."] {
+    padding-bottom: 81px;
+}
+
+.container-input-3::placeholder {
+    color: #FFD43A;
+}
+
+.container-input-4 {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    background: #FFD43A;
+    border: none;
+    margin: 31px 34px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
